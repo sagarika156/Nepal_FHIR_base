@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "5792-7"
+}, "valueSet" :{
+  "resourceType" : "ValueSet"
+}, "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"true", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "Error from https://tx.fhir.org/r4: Error TypeError: Cannot read properties of undefined (reading 'include') \u00a0 \u00a0at valueSetToR5 (/usr/lib/node_modules/fhirsmith/tx/xversion/xv-valueset.js:17:37) \u00a0 \u00a0at convertResourceToR5 (/usr/lib/node_modules/fhirsmith/tx/xversion/xv-resource.js:19:29) \u00a0 \u00a0at parametersToR5 (/usr/lib/node_modules/fhirsmith/tx/xversion/xv-parameters.js:23:20) \u00a0 \u00a0at convertResourceToR5 (/usr/lib/node_modules/fhirsmith/tx/xversion/xv-resource.js:21:31) \u00a0 \u00a0at /usr/lib/node_modules/fhirsmith/tx/tx.js:469:20 \u00a0 \u00a0at Layer.handleRequest (/usr/lib/node_modules/fhirsmith/node_modules/router/lib/layer.js:152:17) \u00a0 \u00a0at trimPrefix (/usr/lib/node_modules/fhirsmith/node_modules/router/index.js:342:13) \u00a0 \u00a0at /usr/lib/node_modules/fhirsmith/node_modules/router/index.js:297:9 \u00a0 \u00a0at processParams (/usr/lib/node_modules/fhirsmith/node_modules/router/index.js:582:12) \u00a0 \u00a0at next (/usr/lib/node_modules/fhirsmith/node_modules/router/index.js:291:5)",
+  "class" : "SERVER_ERROR",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------

@@ -1,0 +1,13 @@
+Output File                                     Name                   Type        FSH File           Lines
+CodeSystem-nepal-caste-ethnicity-cs.json        NepalCasteEthnicityCS  CodeSystem  nepal_patient.fsh  83 - 95
+CodeSystem-nepal-districts-cs.json              NepalDistrictsCS       CodeSystem  nepal_patient.fsh  136 - 156
+CodeSystem-nepal-palika-type-cs.json            NepalPalikaTypeCS      CodeSystem  nepal_patient.fsh  176 - 186
+CodeSystem-nepal-provinces-cs.json              NepalProvincesCS       CodeSystem  nepal_patient.fsh  111 - 124
+Patient-ExampleNepalPatient.json                ExampleNepalPatient    Instance    examples.fsh       1 - 36
+StructureDefinition-nepal-caste-ethnicity.json  NepalCasteEthnicity    Extension   nepal_patient.fsh  73 - 78
+StructureDefinition-nepal-palika-type.json      NepalPalikaType        Extension   nepal_patient.fsh  169 - 174
+StructureDefinition-nepal-patient.json          NepalPatient           Profile     nepal_patient.fsh  1 - 66
+ValueSet-nepal-caste-ethnicity-vs.json          NepalCasteEthnicityVS  ValueSet    nepal_patient.fsh  101 - 106
+ValueSet-nepal-districts-vs.json                NepalDistrictsVS       ValueSet    nepal_patient.fsh  159 - 164
+ValueSet-nepal-palika-type-vs.json              NepalPalikaTypeVS      ValueSet    nepal_patient.fsh  188 - 193
+ValueSet-nepal-provinces-vs.json                NepalProvincesVS       ValueSet    nepal_patient.fsh  126 - 131

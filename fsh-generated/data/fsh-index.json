@@ -1,0 +1,98 @@
+[
+  {
+    "outputFile": "CodeSystem-nepal-caste-ethnicity-cs.json",
+    "fshName": "NepalCasteEthnicityCS",
+    "fshType": "CodeSystem",
+    "fshFile": "nepal_patient.fsh",
+    "startLine": 83,
+    "endLine": 95
+  },
+  {
+    "outputFile": "CodeSystem-nepal-districts-cs.json",
+    "fshName": "NepalDistrictsCS",
+    "fshType": "CodeSystem",
+    "fshFile": "nepal_patient.fsh",
+    "startLine": 136,
+    "endLine": 156
+  },
+  {
+    "outputFile": "CodeSystem-nepal-palika-type-cs.json",
+    "fshName": "NepalPalikaTypeCS",
+    "fshType": "CodeSystem",
+    "fshFile": "nepal_patient.fsh",
+    "startLine": 176,
+    "endLine": 186
+  },
+  {
+    "outputFile": "CodeSystem-nepal-provinces-cs.json",
+    "fshName": "NepalProvincesCS",
+    "fshType": "CodeSystem",
+    "fshFile": "nepal_patient.fsh",
+    "startLine": 111,
+    "endLine": 124
+  },
+  {
+    "outputFile": "Patient-ExampleNepalPatient.json",
+    "fshName": "ExampleNepalPatient",
+    "fshType": "Instance",
+    "fshFile": "examples.fsh",
+    "startLine": 1,
+    "endLine": 36
+  },
+  {
+    "outputFile": "StructureDefinition-nepal-caste-ethnicity.json",
+    "fshName": "NepalCasteEthnicity",
+    "fshType": "Extension",
+    "fshFile": "nepal_patient.fsh",
+    "startLine": 73,
+    "endLine": 78
+  },
+  {
+    "outputFile": "StructureDefinition-nepal-palika-type.json",
+    "fshName": "NepalPalikaType",
+    "fshType": "Extension",
+    "fshFile": "nepal_patient.fsh",
+    "startLine": 169,
+    "endLine": 174
+  },
+  {
+    "outputFile": "StructureDefinition-nepal-patient.json",
+    "fshName": "NepalPatient",
+    "fshType": "Profile",
+    "fshFile": "nepal_patient.fsh",
+    "startLine": 1,
+    "endLine": 66
+  },
+  {
+    "outputFile": "ValueSet-nepal-caste-ethnicity-vs.json",
+    "fshName": "NepalCasteEthnicityVS",
+    "fshType": "ValueSet",
+    "fshFile": "nepal_patient.fsh",
+    "startLine": 101,
+    "endLine": 106
+  },
+  {
+    "outputFile": "ValueSet-nepal-districts-vs.json",
+    "fshName": "NepalDistrictsVS",
+    "fshType": "ValueSet",
+    "fshFile": "nepal_patient.fsh",
+    "startLine": 159,
+    "endLine": 164
+  },
+  {
+    "outputFile": "ValueSet-nepal-palika-type-vs.json",
+    "fshName": "NepalPalikaTypeVS",
+    "fshType": "ValueSet",
+    "fshFile": "nepal_patient.fsh",
+    "startLine": 188,
+    "endLine": 193
+  },
+  {
+    "outputFile": "ValueSet-nepal-provinces-vs.json",
+    "fshName": "NepalProvincesVS",
+    "fshType": "ValueSet",
+    "fshFile": "nepal_patient.fsh",
+    "startLine": 126,
+    "endLine": 131
+  }
+]

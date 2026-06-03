@@ -1,0 +1,15 @@
+id: fhir.np.base
+canonical: http://fhir.mohp.gov.np
+name: NepalBaseline
+title: Nepal Baseline
+status: draft
+version: 0.1.0
+fhirVersion: 4.0.1
+copyrightYear: 2026+
+releaseLabel: CI Build
+publisher:
+  name: Sagarika
+  url: https://github.com/sagarika156  
+menu:
+  Home: index.html
+  Artifact Index: artifacts.html

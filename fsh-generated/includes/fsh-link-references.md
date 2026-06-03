@@ -1,0 +1,12 @@
+[ExampleNepalPatient]: Patient-ExampleNepalPatient.html
+[NepalPalikaType]: StructureDefinition-nepal-palika-type.html
+[NepalPatient]: StructureDefinition-nepal-patient.html
+[NepalCasteEthnicityVS]: ValueSet-nepal-caste-ethnicity-vs.html
+[NepalDistrictsCS]: CodeSystem-nepal-districts-cs.html
+[NepalDistrictsVS]: ValueSet-nepal-districts-vs.html
+[NepalCasteEthnicityCS]: CodeSystem-nepal-caste-ethnicity-cs.html
+[NepalPalikaTypeCS]: CodeSystem-nepal-palika-type-cs.html
+[NepalPalikaTypeVS]: ValueSet-nepal-palika-type-vs.html
+[NepalCasteEthnicity]: StructureDefinition-nepal-caste-ethnicity.html
+[NepalProvincesCS]: CodeSystem-nepal-provinces-cs.html
+[NepalProvincesVS]: ValueSet-nepal-provinces-vs.html

@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "NepalCasteEthnicityVS",
+  "id": "nepal-caste-ethnicity-vs",
+  "title": "Nepal Caste and Ethnicity Value Set",
+  "description": "The set of allowed codes for capturing a patient's ethnic background in Nepal baseline registries.",
+  "url": "http://fhir.mohp.gov.np/ValueSet/nepal-caste-ethnicity-vs",
+  "experimental": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs"
+      }
+    ]
+  }
+}
