@@ -1,4 +1,5 @@
-[ExampleNepalPatient]: Patient-ExampleNepalPatient.html
+[ExampleNepalPatient1]: Patient-ExampleNepalPatient1.html
+[ExampleNepalPatient2]: Patient-ExampleNepalPatient2.html
 [NepalPalikaType]: StructureDefinition-nepal-palika-type.html
 [NepalPatient]: StructureDefinition-nepal-patient.html
 [NepalCasteEthnicityVS]: ValueSet-nepal-caste-ethnicity-vs.html

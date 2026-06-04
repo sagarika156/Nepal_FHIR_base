@@ -32,12 +32,20 @@
     "endLine": 124
   },
   {
-    "outputFile": "Patient-ExampleNepalPatient.json",
-    "fshName": "ExampleNepalPatient",
+    "outputFile": "Patient-ExampleNepalPatient1.json",
+    "fshName": "ExampleNepalPatient1",
     "fshType": "Instance",
     "fshFile": "examples.fsh",
     "startLine": 1,
     "endLine": 36
+  },
+  {
+    "outputFile": "Patient-ExampleNepalPatient2.json",
+    "fshName": "ExampleNepalPatient2",
+    "fshType": "Instance",
+    "fshFile": "examples.fsh",
+    "startLine": 39,
+    "endLine": 63
   },
   {
     "outputFile": "StructureDefinition-nepal-caste-ethnicity.json",

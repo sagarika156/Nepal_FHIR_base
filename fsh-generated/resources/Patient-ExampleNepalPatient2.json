@@ -1,6 +1,6 @@
 {
   "resourceType": "Patient",
-  "id": "ExampleNepalPatient",
+  "id": "ExampleNepalPatient2",
   "meta": {
     "profile": [
       "http://fhir.mohp.gov.np/StructureDefinition/nepal-patient"
@@ -16,7 +16,7 @@
           }
         ]
       },
-      "value": "NHID-9982-3145"
+      "value": "NHID-1234-5678"
     },
     {
       "type": {
@@ -27,7 +27,7 @@
           }
         ]
       },
-      "value": "27-01-75-04321"
+      "value": "32-02-80-09876"
     }
   ],
   "address": [
@@ -40,12 +40,12 @@
       ],
       "use": "home",
       "type": "both",
-      "state": "p3",
-      "district": "dist-302",
-      "city": "Mahalaxmi",
+      "state": "p1",
+      "district": "dist-103",
+      "city": "Birtamode",
       "line": [
-        "Ward 4",
-        "Imadol"
+        "Ward 7",
+        "Shantinagar"
       ]
     }
   ],
@@ -66,14 +66,14 @@
   "name": [
     {
       "use": "official",
-      "text": "Hari Prasad Shrestha",
-      "family": "Shrestha",
+      "text": "Sita Kumari Tamang",
+      "family": "Tamang",
       "given": [
-        "Hari",
-        "Prasad"
+        "Sita",
+        "Kumari"
       ]
     }
   ],
-  "gender": "male",
-  "birthDate": "1988-08-15"
+  "gender": "female",
+  "birthDate": "1965-03-22"
 }

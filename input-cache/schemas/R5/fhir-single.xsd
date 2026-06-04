@@ -47,7 +47,7 @@
   POSSIBILITY OF SUCH DAMAGE.
   
 
-  Generated on Thu, May 28, 2026 22:17+0000 for FHIR v6.0.0-ballot4 
+  Generated on Thu, Jun 4, 2026 02:06+0000 for FHIR v6.0.0-ballot4 
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" targetNamespace="http://hl7.org/fhir" elementFormDefault="qualified" version="6.0.0-ballot4">
   <!-- Note: When using this schema with some tools, it may also be necessary to declare xmlns:xml="http://www.w3.org/XML/1998/namespace", however this causes performance issues with other tools and thus is not in the base schemas. -->
@@ -27481,9 +27481,9 @@ The actual author of the section when it is not the author of the composition. I
               <xs:documentation xml:lang="en">The entity for which the device is being used, benefitting from the device, or which the device is being operated upon, which is usually distinct from the association subject, such as an operator or similar.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="bodyStructure" minOccurs="0" maxOccurs="1" type="Reference">
+          <xs:element name="bodyStructure" minOccurs="0" maxOccurs="unbounded" type="CodeableReference">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Current anatomical location of the device in/on subject.</xs:documentation>
+              <xs:documentation xml:lang="en">Current anatomical location(s) of the device in/on subject.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="period" minOccurs="0" maxOccurs="1" type="Period">
@@ -43566,7 +43566,7 @@ The primary difference between a medicationstatement and a medicationadministrat
               <xs:documentation xml:lang="en">DEPRECATED: This element is deprecated. Use bodyStructure instead. Indicates the site on the subject's body where the observation was made (i.e. the target site).</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="bodyStructure" minOccurs="0" maxOccurs="1" type="CodeableReference">
+          <xs:element name="bodyStructure" minOccurs="0" maxOccurs="unbounded" type="CodeableReference">
             <xs:annotation>
               <xs:documentation xml:lang="en">Indicates the body structure on the subject's body where the observation was made (i.e. the target site).</xs:documentation>
            </xs:annotation>
@@ -43986,7 +43986,7 @@ Reflex | Repeat | Re-run.</xs:documentation>
               <xs:documentation xml:lang="en">Multiple results allowed for observations conforming to this ObservationDefinition.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="bodyStructure" minOccurs="0" maxOccurs="1" type="CodeableReference">
+          <xs:element name="bodyStructure" minOccurs="0" maxOccurs="unbounded" type="CodeableReference">
             <xs:annotation>
               <xs:documentation xml:lang="en">The body structure on the subject's body where the observation is to be made.</xs:documentation>
            </xs:annotation>
@@ -52652,7 +52652,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
               <xs:documentation xml:lang="en">Additional clinical information about the patient or specimen that may influence the services or their interpretations. This information includes diagnosis, clinical findings and other observations. In laboratory ordering these are typically referred to as 'ask at order entry questions (AOEs).' This includes observations explicitly requested by the producer (filler) to provide context or supporting information needed to complete the order. For example, reporting the amount of inspired oxygen for blood gas measurements.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="bodyStructure" minOccurs="0" maxOccurs="1" type="CodeableReference">
+          <xs:element name="bodyStructure" minOccurs="0" maxOccurs="unbounded" type="CodeableReference">
             <xs:annotation>
               <xs:documentation xml:lang="en">Anatomic location where the procedure should be performed. This is the target site.</xs:documentation>
            </xs:annotation>
@@ -53023,7 +53023,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
               <xs:documentation xml:lang="en">The procedure event during which the specimen was collected (e.g. the surgery leading to the collection of a pathology sample).</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="bodySite" minOccurs="0" maxOccurs="1" type="CodeableReference">
+          <xs:element name="bodyStructure" minOccurs="0" maxOccurs="unbounded" type="CodeableReference">
             <xs:annotation>
               <xs:documentation xml:lang="en">Anatomical location from which the specimen was collected (if subject is a patient). This is the target site.  This element is not used for environmental specimens.</xs:documentation>
            </xs:annotation>

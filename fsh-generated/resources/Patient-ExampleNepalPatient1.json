@@ -1,0 +1,79 @@
+{
+  "resourceType": "Patient",
+  "id": "ExampleNepalPatient1",
+  "meta": {
+    "profile": [
+      "http://fhir.mohp.gov.np/StructureDefinition/nepal-patient"
+    ]
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "code": "NH",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+          }
+        ]
+      },
+      "value": "NHID-9982-3145"
+    },
+    {
+      "type": {
+        "coding": [
+          {
+            "code": "CZ",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+          }
+        ]
+      },
+      "value": "27-01-75-04321"
+    }
+  ],
+  "address": [
+    {
+      "extension": [
+        {
+          "url": "http://fhir.mohp.gov.np/StructureDefinition/nepal-palika-type",
+          "valueCode": "municipality"
+        }
+      ],
+      "use": "home",
+      "type": "both",
+      "state": "p3",
+      "district": "dist-302",
+      "city": "Mahalaxmi",
+      "line": [
+        "Ward 4",
+        "Imadol"
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://fhir.mohp.gov.np/StructureDefinition/nepal-caste-ethnicity",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "2",
+            "system": "http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs",
+            "display": "Janajati"
+          }
+        ]
+      }
+    }
+  ],
+  "name": [
+    {
+      "use": "official",
+      "text": "Hari Prasad Shrestha",
+      "family": "Shrestha",
+      "given": [
+        "Hari",
+        "Prasad"
+      ]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1988-08-15"
+}

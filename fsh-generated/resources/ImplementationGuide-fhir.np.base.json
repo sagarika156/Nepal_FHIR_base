@@ -26,10 +26,18 @@
     "resource": [
       {
         "reference": {
-          "reference": "Patient/ExampleNepalPatient"
+          "reference": "Patient/ExampleNepalPatient1"
         },
-        "name": "Example of a Nepal Baseline Patient",
+        "name": "Example of a Nepal Baseline Patient 1",
         "description": "A mockup patient record representing Hari Prasad Shrestha to demonstrate validation against the NepalPatient profile.",
+        "exampleCanonical": "http://fhir.mohp.gov.np/StructureDefinition/nepal-patient"
+      },
+      {
+        "reference": {
+          "reference": "Patient/ExampleNepalPatient2"
+        },
+        "name": "Example of a Nepal Baseline Patient 2",
+        "description": "A mockup patient record representing Sita Kumari Tamang to demonstrate validation against the NepalPatient profile.",
         "exampleCanonical": "http://fhir.mohp.gov.np/StructureDefinition/nepal-patient"
       },
       {
