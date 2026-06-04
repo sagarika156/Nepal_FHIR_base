@@ -1,5 +1,11 @@
 # 🇳🇵 Nepal Baseline FHIR Implementation Guide
 
+## 🌐 Live Implementation Guide
+👉 **[View the Nepal Baseline FHIR IG](https://sagarika156.github.io/Nepal_FHIR_base)**
+
+![FHIR Version](https://img.shields.io/badge/FHIR-R4%20(4.0.1)-blue)
+![SUSHI Version]...
+
 ![FHIR Version](https://img.shields.io/badge/FHIR-R4%20(4.0.1)-blue)
 ![SUSHI Version](https://img.shields.io/badge/SUSHI-v3.19.0-green)
 ![IG Publisher](https://img.shields.io/badge/IG%20Publisher-v5.0.0-orange)
