@@ -1,0 +1,58 @@
+{
+  "codeSystems" : [{
+    "url" : "http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "NepalCasteEthnicityCS",
+    "title" : "Nepal HMIS Caste and Ethnicity Group Code System",
+    "description" : "Official classification of caste and ethnic groups utilized by the Ministry of Health and Population (MoHP) Nepal for health management information systems (HMIS).",
+    "uses" : {
+    },
+    "ValueSet-nepal-caste-ethnicity-vs.html" : "Nepal Caste and Ethnicity Value Set"
+  },
+  {
+    "url" : "http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "NepalDistrictsCS",
+    "title" : "Nepal Districts Code System",
+    "description" : "The official 77 administrative districts of Nepal sorted by regional alignment.",
+    "uses" : {
+    },
+    "ValueSet-nepal-districts-vs.html" : "Nepal Districts Value Set"
+  },
+  {
+    "url" : "http://fhir.mohp.gov.np/CodeSystem/nepal-palika-type-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "NepalPalikaTypeCS",
+    "title" : "Nepal Local Level Tier Code System",
+    "description" : "Official code system for types of local governance bodies (Palikas) in Nepal.",
+    "uses" : {
+    },
+    "ValueSet-nepal-palika-type-vs.html" : "Nepal Local Level Tier Value Set"
+  },
+  {
+    "url" : "http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "NepalProvincesCS",
+    "title" : "Nepal Provinces Code System",
+    "description" : "The 7 federal provinces of Nepal as established by the Constitution.",
+    "uses" : {
+    },
+    "ValueSet-nepal-provinces-vs.html" : "Nepal Provinces Value Set"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0131",
+    "version" : "2.9",
+    "status" : "active",
+    "name" : "v2.0131",
+    "title" : "v2 Contact Role",
+    "description" : "FHIR Value set/code system definition for HL7 v2 table 0131 ( Contact Role)",
+    "oids" : ["2.16.840.1.113883.18.58"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/v2/0131/index.html" : "v2 Contact Role"
+  }]
+}

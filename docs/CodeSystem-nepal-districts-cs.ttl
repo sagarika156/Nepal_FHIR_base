@@ -1,0 +1,74 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "nepal-districts-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem nepal-districts-cs</b></p><a name=\"nepal-districts-cs\"> </a><a name=\"hcnepal-districts-cs\"> </a><p>This case-sensitive code system <code>http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">dist-301<a name=\"nepal-districts-cs-dist-301\"> </a></td><td>Kathmandu</td></tr><tr><td style=\"white-space:nowrap\">dist-302<a name=\"nepal-districts-cs-dist-302\"> </a></td><td>Lalitpur</td></tr><tr><td style=\"white-space:nowrap\">dist-303<a name=\"nepal-districts-cs-dist-303\"> </a></td><td>Bhaktapur</td></tr><tr><td style=\"white-space:nowrap\">dist-304<a name=\"nepal-districts-cs-dist-304\"> </a></td><td>Kavrepalanchok</td></tr><tr><td style=\"white-space:nowrap\">dist-305<a name=\"nepal-districts-cs-dist-305\"> </a></td><td>Chitwan</td></tr><tr><td style=\"white-space:nowrap\">dist-401<a name=\"nepal-districts-cs-dist-401\"> </a></td><td>Kaski</td></tr><tr><td style=\"white-space:nowrap\">dist-402<a name=\"nepal-districts-cs-dist-402\"> </a></td><td>Tanahu</td></tr><tr><td style=\"white-space:nowrap\">dist-403<a name=\"nepal-districts-cs-dist-403\"> </a></td><td>Gorkha</td></tr><tr><td style=\"white-space:nowrap\">dist-101<a name=\"nepal-districts-cs-dist-101\"> </a></td><td>Morang</td></tr><tr><td style=\"white-space:nowrap\">dist-102<a name=\"nepal-districts-cs-dist-102\"> </a></td><td>Sunsari</td></tr><tr><td style=\"white-space:nowrap\">dist-103<a name=\"nepal-districts-cs-dist-103\"> </a></td><td>Jhapa</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs"^^xsd:anyURI ;
+     fhir:l <http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "NepalDistrictsCS"] ; # 
+  fhir:title [ fhir:v "Nepal Districts Code System"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-06-04T10:24:25+05:45"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Sagarika"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Sagarika" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://github.com/sagarika156" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "The official 77 administrative districts of Nepal sorted by regional alignment."] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "11"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "dist-301" ] ;
+     fhir:display [ fhir:v "Kathmandu" ]
+  ] [
+     fhir:code [ fhir:v "dist-302" ] ;
+     fhir:display [ fhir:v "Lalitpur" ]
+  ] [
+     fhir:code [ fhir:v "dist-303" ] ;
+     fhir:display [ fhir:v "Bhaktapur" ]
+  ] [
+     fhir:code [ fhir:v "dist-304" ] ;
+     fhir:display [ fhir:v "Kavrepalanchok" ]
+  ] [
+     fhir:code [ fhir:v "dist-305" ] ;
+     fhir:display [ fhir:v "Chitwan" ]
+  ] [
+     fhir:code [ fhir:v "dist-401" ] ;
+     fhir:display [ fhir:v "Kaski" ]
+  ] [
+     fhir:code [ fhir:v "dist-402" ] ;
+     fhir:display [ fhir:v "Tanahu" ]
+  ] [
+     fhir:code [ fhir:v "dist-403" ] ;
+     fhir:display [ fhir:v "Gorkha" ]
+  ] [
+     fhir:code [ fhir:v "dist-101" ] ;
+     fhir:display [ fhir:v "Morang" ]
+  ] [
+     fhir:code [ fhir:v "dist-102" ] ;
+     fhir:display [ fhir:v "Sunsari" ]
+  ] [
+     fhir:code [ fhir:v "dist-103" ] ;
+     fhir:display [ fhir:v "Jhapa" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

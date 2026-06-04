@@ -1,0 +1,65 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "nepal-caste-ethnicity-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem nepal-caste-ethnicity-cs</b></p><a name=\"nepal-caste-ethnicity-cs\"> </a><a name=\"hcnepal-caste-ethnicity-cs\"> </a><p>This case-sensitive code system <code>http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"nepal-caste-ethnicity-cs-1\"> </a></td><td>Dalit</td><td>Disadvantaged or marginalized groups under national dalit schedules</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"nepal-caste-ethnicity-cs-2\"> </a></td><td>Janajati</td><td>Indigenous nationalities / Adibasi Janajati groups</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"nepal-caste-ethnicity-cs-3\"> </a></td><td>Madhesi</td><td>Terai / Madhesh regional communities</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"nepal-caste-ethnicity-cs-4\"> </a></td><td>Muslim</td><td>Islamic religious/cultural minority demographic</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"nepal-caste-ethnicity-cs-5\"> </a></td><td>Brahmin/Chhetri</td><td>Relatively advantaged hill and plain socio-cultural groups</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"nepal-caste-ethnicity-cs-6\"> </a></td><td>Others</td><td>Other unclassified ethnic or linguistic identities</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs"^^xsd:anyURI ;
+     fhir:l <http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "NepalCasteEthnicityCS"] ; # 
+  fhir:title [ fhir:v "Nepal HMIS Caste and Ethnicity Group Code System"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-06-04T10:24:25+05:45"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Sagarika"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Sagarika" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://github.com/sagarika156" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Official classification of caste and ethnic groups utilized by the Ministry of Health and Population (MoHP) Nepal for health management information systems (HMIS)."] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "6"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "Dalit" ] ;
+     fhir:definition [ fhir:v "Disadvantaged or marginalized groups under national dalit schedules" ]
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:display [ fhir:v "Janajati" ] ;
+     fhir:definition [ fhir:v "Indigenous nationalities / Adibasi Janajati groups" ]
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:display [ fhir:v "Madhesi" ] ;
+     fhir:definition [ fhir:v "Terai / Madhesh regional communities" ]
+  ] [
+     fhir:code [ fhir:v "4" ] ;
+     fhir:display [ fhir:v "Muslim" ] ;
+     fhir:definition [ fhir:v "Islamic religious/cultural minority demographic" ]
+  ] [
+     fhir:code [ fhir:v "5" ] ;
+     fhir:display [ fhir:v "Brahmin/Chhetri" ] ;
+     fhir:definition [ fhir:v "Relatively advantaged hill and plain socio-cultural groups" ]
+  ] [
+     fhir:code [ fhir:v "6" ] ;
+     fhir:display [ fhir:v "Others" ] ;
+     fhir:definition [ fhir:v "Other unclassified ethnic or linguistic identities" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

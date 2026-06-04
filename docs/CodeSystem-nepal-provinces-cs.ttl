@@ -1,0 +1,62 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "nepal-provinces-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem nepal-provinces-cs</b></p><a name=\"nepal-provinces-cs\"> </a><a name=\"hcnepal-provinces-cs\"> </a><p>This case-sensitive code system <code>http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">p1<a name=\"nepal-provinces-cs-p1\"> </a></td><td>Koshi Province</td></tr><tr><td style=\"white-space:nowrap\">p2<a name=\"nepal-provinces-cs-p2\"> </a></td><td>Madhesh Province</td></tr><tr><td style=\"white-space:nowrap\">p3<a name=\"nepal-provinces-cs-p3\"> </a></td><td>Bagmati Province</td></tr><tr><td style=\"white-space:nowrap\">p4<a name=\"nepal-provinces-cs-p4\"> </a></td><td>Gandaki Province</td></tr><tr><td style=\"white-space:nowrap\">p5<a name=\"nepal-provinces-cs-p5\"> </a></td><td>Lumbini Province</td></tr><tr><td style=\"white-space:nowrap\">p6<a name=\"nepal-provinces-cs-p6\"> </a></td><td>Karnali Province</td></tr><tr><td style=\"white-space:nowrap\">p7<a name=\"nepal-provinces-cs-p7\"> </a></td><td>Sudurpashchim Province</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs"^^xsd:anyURI ;
+     fhir:l <http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "NepalProvincesCS"] ; # 
+  fhir:title [ fhir:v "Nepal Provinces Code System"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-06-04T10:24:25+05:45"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Sagarika"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Sagarika" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://github.com/sagarika156" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "The 7 federal provinces of Nepal as established by the Constitution."] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "7"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "p1" ] ;
+     fhir:display [ fhir:v "Koshi Province" ]
+  ] [
+     fhir:code [ fhir:v "p2" ] ;
+     fhir:display [ fhir:v "Madhesh Province" ]
+  ] [
+     fhir:code [ fhir:v "p3" ] ;
+     fhir:display [ fhir:v "Bagmati Province" ]
+  ] [
+     fhir:code [ fhir:v "p4" ] ;
+     fhir:display [ fhir:v "Gandaki Province" ]
+  ] [
+     fhir:code [ fhir:v "p5" ] ;
+     fhir:display [ fhir:v "Lumbini Province" ]
+  ] [
+     fhir:code [ fhir:v "p6" ] ;
+     fhir:display [ fhir:v "Karnali Province" ]
+  ] [
+     fhir:code [ fhir:v "p7" ] ;
+     fhir:display [ fhir:v "Sudurpashchim Province" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

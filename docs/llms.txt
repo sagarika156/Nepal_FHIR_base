@@ -1,0 +1,40 @@
+# fhir.np.base#0.1.0: Nepal Baseline
+
+## Pages
+
+* [Home](index.md)
+* [Artifacts Summary](artifacts.md)
+
+## Resources
+
+### CodeSystems
+
+* [Nepal HMIS Caste and Ethnicity Group Code System](CodeSystem-nepal-caste-ethnicity-cs.md)
+* [Nepal Districts Code System](CodeSystem-nepal-districts-cs.md)
+* [Nepal Local Level Tier Code System](CodeSystem-nepal-palika-type-cs.md)
+* [Nepal Provinces Code System](CodeSystem-nepal-provinces-cs.md)
+
+### ValueSets
+
+* [Nepal Caste and Ethnicity Value Set](ValueSet-nepal-caste-ethnicity-vs.md)
+* [Nepal Districts Value Set](ValueSet-nepal-districts-vs.md)
+* [Nepal Local Level Tier Value Set](ValueSet-nepal-palika-type-vs.md)
+* [Nepal Provinces Value Set](ValueSet-nepal-provinces-vs.md)
+
+### Resource Profiles
+
+* [Nepal Baseline Patient Profile](StructureDefinition-nepal-patient.md)
+
+### Extensions
+
+* [Nepal Patient Caste and Ethnicity Extension](StructureDefinition-nepal-caste-ethnicity.md)
+* [Nepal Administrative Local Level (Palika) Type](StructureDefinition-nepal-palika-type.md)
+
+### ImplementationGuides
+
+* [Nepal Baseline](index.md)
+
+### Examples
+
+* [ExampleNepalPatient1 (Patient)](Patient-ExampleNepalPatient1.md)
+* [ExampleNepalPatient2 (Patient)](Patient-ExampleNepalPatient2.md)

@@ -1,0 +1,46 @@
+NepalBaseline : Validation Results
+=========================================
+
+err = 0, warn = 6, info = 3
+$--
+Generated $--. FHIR version $-- for fhir.np.base#$-- (canonical = http://fhir.mohp.gov.np)
+ Build Errors : 0 / 4 / 0
+ C:\Users\Lenovo\Documents\Nepal_FHIR_base\fsh-generated\resources\CodeSystem-nepal-caste-ethnicity-cs : 0 / 0 / 1
+ C:\Users\Lenovo\Documents\Nepal_FHIR_base\fsh-generated\resources\CodeSystem-nepal-districts-cs : 0 / 0 / 1
+ C:\Users\Lenovo\Documents\Nepal_FHIR_base\fsh-generated\resources\CodeSystem-nepal-palika-type-cs : 0 / 0 / 1
+ C:\Users\Lenovo\Documents\Nepal_FHIR_base\fsh-generated\resources\CodeSystem-nepal-provinces-cs : 0 / 0 / 1
+ C:\Users\Lenovo\Documents\Nepal_FHIR_base\fsh-generated\resources\ImplementationGuide-fhir.np.base : 0 / 0 / 1
+ C:\Users\Lenovo\Documents\Nepal_FHIR_base\fsh-generated\resources\Patient-ExampleNepalPatient1 : 0 / 0 / 2
+ C:\Users\Lenovo\Documents\Nepal_FHIR_base\fsh-generated\resources\Patient-ExampleNepalPatient2 : 0 / 0 / 2
+ C:\Users\Lenovo\Documents\Nepal_FHIR_base\fsh-generated\resources\StructureDefinition-nepal-caste-ethnicity : 0 / 1 / 1
+ C:\Users\Lenovo\Documents\Nepal_FHIR_base\fsh-generated\resources\StructureDefinition-nepal-palika-type : 0 / 1 / 1
+ C:\Users\Lenovo\Documents\Nepal_FHIR_base\fsh-generated\resources\StructureDefinition-nepal-patient : 0 / 0 / 2
+ C:\Users\Lenovo\Documents\Nepal_FHIR_base\fsh-generated\resources\ValueSet-nepal-caste-ethnicity-vs : 0 / 0 / 1
+ C:\Users\Lenovo\Documents\Nepal_FHIR_base\fsh-generated\resources\ValueSet-nepal-districts-vs : 0 / 0 / 1
+ C:\Users\Lenovo\Documents\Nepal_FHIR_base\fsh-generated\resources\ValueSet-nepal-palika-type-vs : 0 / 0 / 1
+ C:\Users\Lenovo\Documents\Nepal_FHIR_base\fsh-generated\resources\ValueSet-nepal-provinces-vs : 0 / 0 / 1
+</table>
+== n/a ==
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated\resources\CodeSystem-nepal-caste-ethnicity-cs.json ==
+== fsh-generated\resources\CodeSystem-nepal-districts-cs.json ==
+== fsh-generated\resources\CodeSystem-nepal-palika-type-cs.json ==
+== fsh-generated\resources\CodeSystem-nepal-provinces-cs.json ==
+== fsh-generated\resources\ImplementationGuide-fhir.np.base.json ==
+== fsh-generated\resources\Patient-ExampleNepalPatient1.json ==
+INFORMATION: Patient/ExampleNepalPatient1: Patient.extension[0].value.ofType(CodeableConcept): Reference to draft CodeSystem http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs|0.1.0
+== fsh-generated\resources\Patient-ExampleNepalPatient2.json ==
+INFORMATION: Patient/ExampleNepalPatient2: Patient.extension[0].value.ofType(CodeableConcept): Reference to draft CodeSystem http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs|0.1.0
+== fsh-generated\resources\StructureDefinition-nepal-caste-ethnicity.json ==
+WARNING: StructureDefinition/nepal-caste-ethnicity: StructureDefinition.context[0]: Review the extension type for nepal-caste-ethnicity: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated\resources\StructureDefinition-nepal-palika-type.json ==
+WARNING: StructureDefinition/nepal-palika-type: StructureDefinition.context[0]: Review the extension type for nepal-palika-type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated\resources\StructureDefinition-nepal-patient.json ==
+INFORMATION: StructureDefinition/nepal-patient: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
+== fsh-generated\resources\ValueSet-nepal-caste-ethnicity-vs.json ==
+== fsh-generated\resources\ValueSet-nepal-districts-vs.json ==
+== fsh-generated\resources\ValueSet-nepal-palika-type-vs.json ==
+== fsh-generated\resources\ValueSet-nepal-provinces-vs.json ==

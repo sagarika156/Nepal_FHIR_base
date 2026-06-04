@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="nepal-caste-ethnicity-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet nepal-caste-ethnicity-vs</b></p><a name="nepal-caste-ethnicity-vs"> </a><a name="hcnepal-caste-ethnicity-vs"> </a><ul><li>Include all codes defined in <a href="CodeSystem-nepal-caste-ethnicity-cs.html"><code>http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.0</span></li></ul></div>
+  </text>
+  <url value="http://fhir.mohp.gov.np/ValueSet/nepal-caste-ethnicity-vs"/>
+  <version value="0.1.0"/>
+  <name value="NepalCasteEthnicityVS"/>
+  <title value="Nepal Caste and Ethnicity Value Set"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-06-04T10:24:25+05:45"/>
+  <publisher value="Sagarika"/>
+  <contact>
+    <name value="Sagarika"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/sagarika156"/>
+    </telecom>
+  </contact>
+  <description value="The set of allowed codes for capturing a patient's ethnic background in Nepal baseline registries."/>
+  <compose>
+    <include>
+      <system value="http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs"/>
+    </include>
+  </compose>
+</ValueSet>

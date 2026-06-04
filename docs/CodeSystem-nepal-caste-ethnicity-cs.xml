@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="nepal-caste-ethnicity-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem nepal-caste-ethnicity-cs</b></p><a name="nepal-caste-ethnicity-cs"> </a><a name="hcnepal-caste-ethnicity-cs"> </a><p>This case-sensitive code system <code>http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">1<a name="nepal-caste-ethnicity-cs-1"> </a></td><td>Dalit</td><td>Disadvantaged or marginalized groups under national dalit schedules</td></tr><tr><td style="white-space:nowrap">2<a name="nepal-caste-ethnicity-cs-2"> </a></td><td>Janajati</td><td>Indigenous nationalities / Adibasi Janajati groups</td></tr><tr><td style="white-space:nowrap">3<a name="nepal-caste-ethnicity-cs-3"> </a></td><td>Madhesi</td><td>Terai / Madhesh regional communities</td></tr><tr><td style="white-space:nowrap">4<a name="nepal-caste-ethnicity-cs-4"> </a></td><td>Muslim</td><td>Islamic religious/cultural minority demographic</td></tr><tr><td style="white-space:nowrap">5<a name="nepal-caste-ethnicity-cs-5"> </a></td><td>Brahmin/Chhetri</td><td>Relatively advantaged hill and plain socio-cultural groups</td></tr><tr><td style="white-space:nowrap">6<a name="nepal-caste-ethnicity-cs-6"> </a></td><td>Others</td><td>Other unclassified ethnic or linguistic identities</td></tr></table></div>
+  </text>
+  <url value="http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs"/>
+  <version value="0.1.0"/>
+  <name value="NepalCasteEthnicityCS"/>
+  <title value="Nepal HMIS Caste and Ethnicity Group Code System"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-06-04T10:24:25+05:45"/>
+  <publisher value="Sagarika"/>
+  <contact>
+    <name value="Sagarika"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/sagarika156"/>
+    </telecom>
+  </contact>
+  <description value="Official classification of caste and ethnic groups utilized by the Ministry of Health and Population (MoHP) Nepal for health management information systems (HMIS)."/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="6"/>
+  <concept>
+    <code value="1"/>
+    <display value="Dalit"/>
+    <definition value="Disadvantaged or marginalized groups under national dalit schedules"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Janajati"/>
+    <definition value="Indigenous nationalities / Adibasi Janajati groups"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Madhesi"/>
+    <definition value="Terai / Madhesh regional communities"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Muslim"/>
+    <definition value="Islamic religious/cultural minority demographic"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Brahmin/Chhetri"/>
+    <definition value="Relatively advantaged hill and plain socio-cultural groups"/>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="Others"/>
+    <definition value="Other unclassified ethnic or linguistic identities"/>
+  </concept>
+</CodeSystem>

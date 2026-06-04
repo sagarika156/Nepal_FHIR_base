@@ -1,0 +1,5 @@
+URL,Version,Status,OIDs,Name,Title,Description,Uses,Used,Sources
+http://fhir.mohp.gov.np/ValueSet/nepal-caste-ethnicity-vs,0.1.0,draft,,NepalCasteEthnicityVS,Nepal Caste and Ethnicity Value Set,"The set of allowed codes for capturing a patient's ethnic background in Nepal baseline registries.",,"Internal"
+http://fhir.mohp.gov.np/ValueSet/nepal-districts-vs,0.1.0,draft,,NepalDistrictsVS,Nepal Districts Value Set,"Value set for enforcing validated district entry across medical records in Nepal.",,"Internal"
+http://fhir.mohp.gov.np/ValueSet/nepal-palika-type-vs,0.1.0,draft,,NepalPalikaTypeVS,Nepal Local Level Tier Value Set,"Value set for selecting allowed structural types for local governance (Palika) in Nepal.",,"Internal"
+http://fhir.mohp.gov.np/ValueSet/nepal-provinces-vs,0.1.0,draft,,NepalProvincesVS,Nepal Provinces Value Set,"Value set for selecting a valid federal province in Nepal.",,"Internal"

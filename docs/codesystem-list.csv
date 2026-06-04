@@ -1,0 +1,5 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs,0.1.0,draft,,NepalCasteEthnicityCS,Nepal HMIS Caste and Ethnicity Group Code System,"Official classification of caste and ethnic groups utilized by the Ministry of Health and Population (MoHP) Nepal for health management information systems (HMIS).",
+http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs,0.1.0,draft,,NepalDistrictsCS,Nepal Districts Code System,"The official 77 administrative districts of Nepal sorted by regional alignment.",
+http://fhir.mohp.gov.np/CodeSystem/nepal-palika-type-cs,0.1.0,draft,,NepalPalikaTypeCS,Nepal Local Level Tier Code System,"Official code system for types of local governance bodies (Palikas) in Nepal.",
+http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs,0.1.0,draft,,NepalProvincesCS,Nepal Provinces Code System,"The 7 federal provinces of Nepal as established by the Constitution.",

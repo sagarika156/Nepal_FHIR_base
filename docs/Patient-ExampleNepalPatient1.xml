@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="ExampleNepalPatient1"/>
+  <meta>
+    <profile value="http://fhir.mohp.gov.np/StructureDefinition/nepal-patient"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Patient ExampleNepalPatient1</b></p><a name="ExampleNepalPatient1"> </a><a name="hcExampleNepalPatient1"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-nepal-patient.html">Nepal Baseline Patient Profile</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Hari Prasad Shrestha(official) Male, DoB: 1988-08-15 ( National Health Plan Identifier)</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Other Id (see the one above)">Other Id:</td><td colspan="3">Citizenship Card/27-01-75-04321</td></tr><tr><td style="background-color: #f3f5da" title="Ways to contact the Patient">Contact Detail</td><td colspan="3">Ward 4 Imadol Mahalaxmi p3 (home)</td></tr><tr><td style="background-color: #f3f5da" title="An extension to capture caste or ethnic classifications according to MoHP Nepal digital health guidelines."><a href="StructureDefinition-nepal-caste-ethnicity.html">Nepal Patient Caste and Ethnicity Extension</a></td><td colspan="3"><span title="Codes:{http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs 2}">Janajati</span></td></tr></table></div>
+  </text>
+  <extension url="http://fhir.mohp.gov.np/StructureDefinition/nepal-caste-ethnicity">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs"/>
+        <code value="2"/>
+        <display value="Janajati"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <identifier>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+        <code value="NH"/>
+      </coding>
+    </type>
+    <value value="NHID-9982-3145"/>
+  </identifier>
+  <identifier>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+        <code value="CZ"/>
+      </coding>
+    </type>
+    <value value="27-01-75-04321"/>
+  </identifier>
+  <name>
+    <use value="official"/>
+    <text value="Hari Prasad Shrestha"/>
+    <family value="Shrestha"/>
+    <given value="Hari"/>
+    <given value="Prasad"/>
+  </name>
+  <gender value="male"/>
+  <birthDate value="1988-08-15"/>
+  <address>
+    <extension url="http://fhir.mohp.gov.np/StructureDefinition/nepal-palika-type">
+      <valueCode value="municipality"/>
+    </extension>
+    <use value="home"/>
+    <type value="both"/>
+    <line value="Ward 4"/>
+    <line value="Imadol"/>
+    <city value="Mahalaxmi"/>
+    <district value="dist-302"/>
+    <state value="p3"/>
+  </address>
+</Patient>

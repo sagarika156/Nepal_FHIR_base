@@ -1,0 +1,189 @@
+{
+  "codeSystems" : [{
+    "url" : "http://fhir.mohp.gov.np/ValueSet/nepal-caste-ethnicity-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "NepalCasteEthnicityVS",
+    "title" : "Nepal Caste and Ethnicity Value Set",
+    "description" : "The set of allowed codes for capturing a patient's ethnic background in Nepal baseline registries.",
+    "systems" : ["http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-nepal-caste-ethnicity.html" : "Nepal Patient Caste and Ethnicity Extension"
+  },
+  {
+    "url" : "http://fhir.mohp.gov.np/ValueSet/nepal-districts-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "NepalDistrictsVS",
+    "title" : "Nepal Districts Value Set",
+    "description" : "Value set for enforcing validated district entry across medical records in Nepal.",
+    "systems" : ["http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-nepal-patient.html" : "Nepal Baseline Patient Profile"
+  },
+  {
+    "url" : "http://fhir.mohp.gov.np/ValueSet/nepal-palika-type-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "NepalPalikaTypeVS",
+    "title" : "Nepal Local Level Tier Value Set",
+    "description" : "Value set for selecting allowed structural types for local governance (Palika) in Nepal.",
+    "systems" : ["http://fhir.mohp.gov.np/CodeSystem/nepal-palika-type-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-nepal-palika-type.html" : "Nepal Administrative Local Level (Palika) Type"
+  },
+  {
+    "url" : "http://fhir.mohp.gov.np/ValueSet/nepal-provinces-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "NepalProvincesVS",
+    "title" : "Nepal Provinces Value Set",
+    "description" : "Value set for selecting a valid federal province in Nepal.",
+    "systems" : ["http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-nepal-patient.html" : "Nepal Baseline Patient Profile"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/address-type",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "AddressType",
+    "title" : "AddressType",
+    "description" : "The type of an address (physical / postal).",
+    "systems" : ["http://hl7.org/fhir/address-type"],
+    "oids" : ["2.16.840.1.113883.4.642.3.69"],
+    "sources" : ["2.16.840.1.113883.4.642.3.69"],
+    "uses" : {
+    },
+    "StructureDefinition-nepal-patient.html" : "Nepal Baseline Patient Profile"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/address-use",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "AddressUse",
+    "title" : "AddressUse",
+    "description" : "The use of an address.",
+    "systems" : ["http://hl7.org/fhir/address-use"],
+    "oids" : ["2.16.840.1.113883.4.642.3.67"],
+    "sources" : ["2.16.840.1.113883.4.642.3.67"],
+    "uses" : {
+    },
+    "StructureDefinition-nepal-patient.html" : "Nepal Baseline Patient Profile"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "AdministrativeGender",
+    "title" : "AdministrativeGender",
+    "description" : "The gender of a person used for administrative purposes.",
+    "systems" : ["http://hl7.org/fhir/administrative-gender"],
+    "oids" : ["2.16.840.1.113883.4.642.3.1"],
+    "sources" : ["2.16.840.1.113883.4.642.3.1"],
+    "uses" : {
+    },
+    "StructureDefinition-nepal-patient.html" : "Nepal Baseline Patient Profile"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "Identifier Type Codes",
+    "title" : "IdentifierType",
+    "description" : "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0203"],
+    "oids" : ["2.16.840.1.113883.4.642.3.45"],
+    "sources" : ["2.16.840.1.113883.4.642.3.45"],
+    "uses" : {
+    },
+    "StructureDefinition-nepal-patient.html" : "Nepal Baseline Patient Profile"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "IdentifierUse",
+    "title" : "IdentifierUse",
+    "description" : "Identifies the purpose for this identifier, if known .",
+    "systems" : ["http://hl7.org/fhir/identifier-use"],
+    "oids" : ["2.16.840.1.113883.4.642.3.57"],
+    "sources" : ["2.16.840.1.113883.4.642.3.57"],
+    "uses" : {
+    },
+    "StructureDefinition-nepal-patient.html" : "Nepal Baseline Patient Profile"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/languages",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "CommonLanguages",
+    "title" : "Common Languages",
+    "description" : "This value set includes common codes from BCP-47 (http://tools.ietf.org/html/bcp47)",
+    "systems" : ["urn:ietf:bcp:47"],
+    "oids" : ["2.16.840.1.113883.4.642.3.20"],
+    "sources" : ["2.16.840.1.113883.4.642.3.20"],
+    "uses" : {
+    },
+    "StructureDefinition-nepal-patient.html" : "Nepal Baseline Patient Profile"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/link-type",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "LinkType",
+    "title" : "LinkType",
+    "description" : "The type of link between this patient resource and another patient resource.",
+    "systems" : ["http://hl7.org/fhir/link-type"],
+    "oids" : ["2.16.840.1.113883.4.642.3.423"],
+    "sources" : ["2.16.840.1.113883.4.642.3.423"],
+    "uses" : {
+    },
+    "StructureDefinition-nepal-patient.html" : "Nepal Baseline Patient Profile"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/marital-status",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "Marital Status Codes",
+    "title" : "MaritalStatus",
+    "description" : "This value set defines the set of codes that can be used to indicate the marital status of a person.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+    "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"],
+    "oids" : ["2.16.840.1.113883.4.642.3.29"],
+    "sources" : ["2.16.840.1.113883.4.642.3.29"],
+    "uses" : {
+    },
+    "StructureDefinition-nepal-patient.html" : "Nepal Baseline Patient Profile"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "PatientContactRelationship",
+    "title" : "Patient Contact Relationship ",
+    "description" : "The nature of the relationship between the patient and the contact person.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0131"],
+    "oids" : ["2.16.840.1.113883.4.642.3.1130"],
+    "sources" : ["2.16.840.1.113883.4.642.3.1130"],
+    "uses" : {
+    },
+    "StructureDefinition-nepal-patient.html" : "Nepal Baseline Patient Profile"
+  },
+  {
+    "url" : "http://terminology.hl7.org/ValueSet/v2-0131",
+    "version" : "2.9",
+    "status" : "active",
+    "name" : "v2.0131",
+    "title" : "v2 Contact Role",
+    "description" : "FHIR Value set/code system definition for HL7 v2 table 0131 ( Contact Role)",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0131"],
+    "uses" : {
+    },
+    "StructureDefinition-nepal-patient.html" : "Nepal Baseline Patient Profile"
+  }]
+}

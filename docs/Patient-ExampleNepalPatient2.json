@@ -1,0 +1,61 @@
+{
+  "resourceType" : "Patient",
+  "id" : "ExampleNepalPatient2",
+  "meta" : {
+    "profile" : ["http://fhir.mohp.gov.np/StructureDefinition/nepal-patient"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient ExampleNepalPatient2</b></p><a name=\"ExampleNepalPatient2\"> </a><a name=\"hcExampleNepalPatient2\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nepal-patient.html\">Nepal Baseline Patient Profile</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Sita Kumari Tamang(official) Female, DoB: 1965-03-22 ( National Health Plan Identifier)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Other Id (see the one above)\">Other Id:</td><td colspan=\"3\">Citizenship Card/32-02-80-09876</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\">Ward 7 Shantinagar Birtamode p1 (home)</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"An extension to capture caste or ethnic classifications according to MoHP Nepal digital health guidelines.\"><a href=\"StructureDefinition-nepal-caste-ethnicity.html\">Nepal Patient Caste and Ethnicity Extension</a></td><td colspan=\"3\"><span title=\"Codes:{http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs 2}\">Janajati</span></td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://fhir.mohp.gov.np/StructureDefinition/nepal-caste-ethnicity",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs",
+        "code" : "2",
+        "display" : "Janajati"
+      }]
+    }
+  }],
+  "identifier" : [{
+    "type" : {
+      "coding" : [{
+        "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "code" : "NH"
+      }]
+    },
+    "value" : "NHID-1234-5678"
+  },
+  {
+    "type" : {
+      "coding" : [{
+        "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "code" : "CZ"
+      }]
+    },
+    "value" : "32-02-80-09876"
+  }],
+  "name" : [{
+    "use" : "official",
+    "text" : "Sita Kumari Tamang",
+    "family" : "Tamang",
+    "given" : ["Sita",
+    "Kumari"]
+  }],
+  "gender" : "female",
+  "birthDate" : "1965-03-22",
+  "address" : [{
+    "extension" : [{
+      "url" : "http://fhir.mohp.gov.np/StructureDefinition/nepal-palika-type",
+      "valueCode" : "municipality"
+    }],
+    "use" : "home",
+    "type" : "both",
+    "line" : ["Ward 7",
+    "Shantinagar"],
+    "city" : "Birtamode",
+    "district" : "dist-103",
+    "state" : "p1"
+  }]
+}

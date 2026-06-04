@@ -1,0 +1,53 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.mohp.gov.np/CodeSystem/nepal-palika-type-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "nepal-palika-type-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem nepal-palika-type-cs</b></p><a name=\"nepal-palika-type-cs\"> </a><a name=\"hcnepal-palika-type-cs\"> </a><p>This case-sensitive code system <code>http://fhir.mohp.gov.np/CodeSystem/nepal-palika-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">metropolitan<a name=\"nepal-palika-type-cs-metropolitan\"> </a></td><td>Metropolitan City (Mahanagarpalika)</td></tr><tr><td style=\"white-space:nowrap\">sub-metropolitan<a name=\"nepal-palika-type-cs-sub-metropolitan\"> </a></td><td>Sub-Metropolitan City (Upamahanagarpalika)</td></tr><tr><td style=\"white-space:nowrap\">municipality<a name=\"nepal-palika-type-cs-municipality\"> </a></td><td>Municipality (Nagarpalika)</td></tr><tr><td style=\"white-space:nowrap\">rural-municipality<a name=\"nepal-palika-type-cs-rural-municipality\"> </a></td><td>Rural Municipality (Gaupalika)</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://fhir.mohp.gov.np/CodeSystem/nepal-palika-type-cs"^^xsd:anyURI ;
+     fhir:l <http://fhir.mohp.gov.np/CodeSystem/nepal-palika-type-cs>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "NepalPalikaTypeCS"] ; # 
+  fhir:title [ fhir:v "Nepal Local Level Tier Code System"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-06-04T10:24:25+05:45"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Sagarika"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Sagarika" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://github.com/sagarika156" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Official code system for types of local governance bodies (Palikas) in Nepal."] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "metropolitan" ] ;
+     fhir:display [ fhir:v "Metropolitan City (Mahanagarpalika)" ]
+  ] [
+     fhir:code [ fhir:v "sub-metropolitan" ] ;
+     fhir:display [ fhir:v "Sub-Metropolitan City (Upamahanagarpalika)" ]
+  ] [
+     fhir:code [ fhir:v "municipality" ] ;
+     fhir:display [ fhir:v "Municipality (Nagarpalika)" ]
+  ] [
+     fhir:code [ fhir:v "rural-municipality" ] ;
+     fhir:display [ fhir:v "Rural Municipality (Gaupalika)" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

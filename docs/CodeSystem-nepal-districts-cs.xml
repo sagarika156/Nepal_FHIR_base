@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="nepal-districts-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem nepal-districts-cs</b></p><a name="nepal-districts-cs"> </a><a name="hcnepal-districts-cs"> </a><p>This case-sensitive code system <code>http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">dist-301<a name="nepal-districts-cs-dist-301"> </a></td><td>Kathmandu</td></tr><tr><td style="white-space:nowrap">dist-302<a name="nepal-districts-cs-dist-302"> </a></td><td>Lalitpur</td></tr><tr><td style="white-space:nowrap">dist-303<a name="nepal-districts-cs-dist-303"> </a></td><td>Bhaktapur</td></tr><tr><td style="white-space:nowrap">dist-304<a name="nepal-districts-cs-dist-304"> </a></td><td>Kavrepalanchok</td></tr><tr><td style="white-space:nowrap">dist-305<a name="nepal-districts-cs-dist-305"> </a></td><td>Chitwan</td></tr><tr><td style="white-space:nowrap">dist-401<a name="nepal-districts-cs-dist-401"> </a></td><td>Kaski</td></tr><tr><td style="white-space:nowrap">dist-402<a name="nepal-districts-cs-dist-402"> </a></td><td>Tanahu</td></tr><tr><td style="white-space:nowrap">dist-403<a name="nepal-districts-cs-dist-403"> </a></td><td>Gorkha</td></tr><tr><td style="white-space:nowrap">dist-101<a name="nepal-districts-cs-dist-101"> </a></td><td>Morang</td></tr><tr><td style="white-space:nowrap">dist-102<a name="nepal-districts-cs-dist-102"> </a></td><td>Sunsari</td></tr><tr><td style="white-space:nowrap">dist-103<a name="nepal-districts-cs-dist-103"> </a></td><td>Jhapa</td></tr></table></div>
+  </text>
+  <url value="http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs"/>
+  <version value="0.1.0"/>
+  <name value="NepalDistrictsCS"/>
+  <title value="Nepal Districts Code System"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-06-04T10:24:25+05:45"/>
+  <publisher value="Sagarika"/>
+  <contact>
+    <name value="Sagarika"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/sagarika156"/>
+    </telecom>
+  </contact>
+  <description value="The official 77 administrative districts of Nepal sorted by regional alignment."/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="11"/>
+  <concept>
+    <code value="dist-301"/>
+    <display value="Kathmandu"/>
+  </concept>
+  <concept>
+    <code value="dist-302"/>
+    <display value="Lalitpur"/>
+  </concept>
+  <concept>
+    <code value="dist-303"/>
+    <display value="Bhaktapur"/>
+  </concept>
+  <concept>
+    <code value="dist-304"/>
+    <display value="Kavrepalanchok"/>
+  </concept>
+  <concept>
+    <code value="dist-305"/>
+    <display value="Chitwan"/>
+  </concept>
+  <concept>
+    <code value="dist-401"/>
+    <display value="Kaski"/>
+  </concept>
+  <concept>
+    <code value="dist-402"/>
+    <display value="Tanahu"/>
+  </concept>
+  <concept>
+    <code value="dist-403"/>
+    <display value="Gorkha"/>
+  </concept>
+  <concept>
+    <code value="dist-101"/>
+    <display value="Morang"/>
+  </concept>
+  <concept>
+    <code value="dist-102"/>
+    <display value="Sunsari"/>
+  </concept>
+  <concept>
+    <code value="dist-103"/>
+    <display value="Jhapa"/>
+  </concept>
+</CodeSystem>

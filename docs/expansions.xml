@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="14e84fa7-39ec-4920-9d06-fa0a92f40380"/>
+  <meta>
+    <lastUpdated value="2026-06-04T10:24:25.402+05:45"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://fhir.mohp.gov.np/ValueSet/nepal-caste-ethnicity-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-nepal-caste-ethnicity-cs.html">codesystem Nepal HMIS Caste and Ethnicity Group Code System v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 6 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs-1"> </a>
+                  <code>http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-nepal-caste-ethnicity-cs.html#nepal-caste-ethnicity-cs-1">1</a>
+                </td>
+                <td>Dalit</td>
+                <td>Disadvantaged or marginalized groups under national dalit schedules</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;1&quot;, &quot;display&quot;: &quot;Dalit&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;1&quot;&gt;&lt;display value=&quot;Dalit&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs-2"> </a>
+                  <code>http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-nepal-caste-ethnicity-cs.html#nepal-caste-ethnicity-cs-2">2</a>
+                </td>
+                <td>Janajati</td>
+                <td>Indigenous nationalities / Adibasi Janajati groups</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;2&quot;, &quot;display&quot;: &quot;Janajati&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;2&quot;&gt;&lt;display value=&quot;Janajati&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs-3"> </a>
+                  <code>http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-nepal-caste-ethnicity-cs.html#nepal-caste-ethnicity-cs-3">3</a>
+                </td>
+                <td>Madhesi</td>
+                <td>Terai / Madhesh regional communities</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;3&quot;, &quot;display&quot;: &quot;Madhesi&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;3&quot;&gt;&lt;display value=&quot;Madhesi&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs-4"> </a>
+                  <code>http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-nepal-caste-ethnicity-cs.html#nepal-caste-ethnicity-cs-4">4</a>
+                </td>
+                <td>Muslim</td>
+                <td>Islamic religious/cultural minority demographic</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;4&quot;, &quot;display&quot;: &quot;Muslim&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;4&quot;&gt;&lt;display value=&quot;Muslim&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs-5"> </a>
+                  <code>http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-nepal-caste-ethnicity-cs.html#nepal-caste-ethnicity-cs-5">5</a>
+                </td>
+                <td>Brahmin/Chhetri</td>
+                <td>Relatively advantaged hill and plain socio-cultural groups</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;5&quot;, &quot;display&quot;: &quot;Brahmin/Chhetri&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;5&quot;&gt;&lt;display value=&quot;Brahmin/Chhetri&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs-6"> </a>
+                  <code>http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-nepal-caste-ethnicity-cs.html#nepal-caste-ethnicity-cs-6">6</a>
+                </td>
+                <td>Others</td>
+                <td>Other unclassified ethnic or linguistic identities</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;6&quot;, &quot;display&quot;: &quot;Others&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;6&quot;&gt;&lt;display value=&quot;Others&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.mohp.gov.np/ValueSet/nepal-caste-ethnicity-vs"/>
+        <version value="0.1.0"/>
+        <name value="NepalCasteEthnicityVS"/>
+        <title value="Nepal Caste and Ethnicity Value Set"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2026-06-04T10:24:25+05:45"/>
+        <expansion>
+          <identifier value="urn:uuid:fed98f2b-902c-4f30-8d4d-e2ec32872fb1"/>
+          <timestamp value="2026-06-04T10:25:23+05:45"/>
+          <total value="6"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs"/>
+            <code value="1"/>
+            <display value="Dalit"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs"/>
+            <code value="2"/>
+            <display value="Janajati"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs"/>
+            <code value="3"/>
+            <display value="Madhesi"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs"/>
+            <code value="4"/>
+            <display value="Muslim"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs"/>
+            <code value="5"/>
+            <display value="Brahmin/Chhetri"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs"/>
+            <code value="6"/>
+            <display value="Others"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.mohp.gov.np/ValueSet/nepal-districts-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-nepal-districts-cs.html">codesystem Nepal Districts Code System v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 11 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs-dist-301"> </a>
+                  <code>http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-nepal-districts-cs.html#nepal-districts-cs-dist-301">dist-301</a>
+                </td>
+                <td>Kathmandu</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;dist-301&quot;, &quot;display&quot;: &quot;Kathmandu&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;dist-301&quot;&gt;&lt;display value=&quot;Kathmandu&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs-dist-302"> </a>
+                  <code>http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-nepal-districts-cs.html#nepal-districts-cs-dist-302">dist-302</a>
+                </td>
+                <td>Lalitpur</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;dist-302&quot;, &quot;display&quot;: &quot;Lalitpur&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;dist-302&quot;&gt;&lt;display value=&quot;Lalitpur&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs-dist-303"> </a>
+                  <code>http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-nepal-districts-cs.html#nepal-districts-cs-dist-303">dist-303</a>
+                </td>
+                <td>Bhaktapur</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;dist-303&quot;, &quot;display&quot;: &quot;Bhaktapur&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;dist-303&quot;&gt;&lt;display value=&quot;Bhaktapur&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs-dist-304"> </a>
+                  <code>http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-nepal-districts-cs.html#nepal-districts-cs-dist-304">dist-304</a>
+                </td>
+                <td>Kavrepalanchok</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;dist-304&quot;, &quot;display&quot;: &quot;Kavrepalanchok&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;dist-304&quot;&gt;&lt;display value=&quot;Kavrepalanchok&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs-dist-305"> </a>
+                  <code>http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-nepal-districts-cs.html#nepal-districts-cs-dist-305">dist-305</a>
+                </td>
+                <td>Chitwan</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;dist-305&quot;, &quot;display&quot;: &quot;Chitwan&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;dist-305&quot;&gt;&lt;display value=&quot;Chitwan&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs-dist-401"> </a>
+                  <code>http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-nepal-districts-cs.html#nepal-districts-cs-dist-401">dist-401</a>
+                </td>
+                <td>Kaski</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;dist-401&quot;, &quot;display&quot;: &quot;Kaski&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;dist-401&quot;&gt;&lt;display value=&quot;Kaski&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs-dist-402"> </a>
+                  <code>http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-nepal-districts-cs.html#nepal-districts-cs-dist-402">dist-402</a>
+                </td>
+                <td>Tanahu</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;dist-402&quot;, &quot;display&quot;: &quot;Tanahu&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;dist-402&quot;&gt;&lt;display value=&quot;Tanahu&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs-dist-403"> </a>
+                  <code>http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-nepal-districts-cs.html#nepal-districts-cs-dist-403">dist-403</a>
+                </td>
+                <td>Gorkha</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;dist-403&quot;, &quot;display&quot;: &quot;Gorkha&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;dist-403&quot;&gt;&lt;display value=&quot;Gorkha&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs-dist-101"> </a>
+                  <code>http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-nepal-districts-cs.html#nepal-districts-cs-dist-101">dist-101</a>
+                </td>
+                <td>Morang</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;dist-101&quot;, &quot;display&quot;: &quot;Morang&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;dist-101&quot;&gt;&lt;display value=&quot;Morang&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs-dist-102"> </a>
+                  <code>http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-nepal-districts-cs.html#nepal-districts-cs-dist-102">dist-102</a>
+                </td>
+                <td>Sunsari</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;dist-102&quot;, &quot;display&quot;: &quot;Sunsari&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;dist-102&quot;&gt;&lt;display value=&quot;Sunsari&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs-dist-103"> </a>
+                  <code>http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-nepal-districts-cs.html#nepal-districts-cs-dist-103">dist-103</a>
+                </td>
+                <td>Jhapa</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;dist-103&quot;, &quot;display&quot;: &quot;Jhapa&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;dist-103&quot;&gt;&lt;display value=&quot;Jhapa&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.mohp.gov.np/ValueSet/nepal-districts-vs"/>
+        <version value="0.1.0"/>
+        <name value="NepalDistrictsVS"/>
+        <title value="Nepal Districts Value Set"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2026-06-04T10:24:25+05:45"/>
+        <expansion>
+          <identifier value="urn:uuid:53383de7-a3fc-40c2-bdf9-80204a59c3f3"/>
+          <timestamp value="2026-06-04T10:25:24+05:45"/>
+          <total value="11"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs"/>
+            <code value="dist-301"/>
+            <display value="Kathmandu"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs"/>
+            <code value="dist-302"/>
+            <display value="Lalitpur"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs"/>
+            <code value="dist-303"/>
+            <display value="Bhaktapur"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs"/>
+            <code value="dist-304"/>
+            <display value="Kavrepalanchok"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs"/>
+            <code value="dist-305"/>
+            <display value="Chitwan"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs"/>
+            <code value="dist-401"/>
+            <display value="Kaski"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs"/>
+            <code value="dist-402"/>
+            <display value="Tanahu"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs"/>
+            <code value="dist-403"/>
+            <display value="Gorkha"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs"/>
+            <code value="dist-101"/>
+            <display value="Morang"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs"/>
+            <code value="dist-102"/>
+            <display value="Sunsari"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.mohp.gov.np/CodeSystem/nepal-districts-cs"/>
+            <code value="dist-103"/>
+            <display value="Jhapa"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.mohp.gov.np/ValueSet/nepal-palika-type-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-nepal-palika-type-cs.html">codesystem Nepal Local Level Tier Code System v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.mohp.gov.np/CodeSystem/nepal-palika-type-cs|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 4 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.mohp.gov.np/CodeSystem/nepal-palika-type-cs-metropolitan"> </a>
+                  <code>http://fhir.mohp.gov.np/CodeSystem/nepal-palika-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-nepal-palika-type-cs.html#nepal-palika-type-cs-metropolitan">metropolitan</a>
+                </td>
+                <td>Metropolitan City (Mahanagarpalika)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.mohp.gov.np/CodeSystem/nepal-palika-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;metropolitan&quot;, &quot;display&quot;: &quot;Metropolitan City (Mahanagarpalika)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.mohp.gov.np/CodeSystem/nepal-palika-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;metropolitan&quot;&gt;&lt;display value=&quot;Metropolitan City (Mahanagarpalika)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.mohp.gov.np/CodeSystem/nepal-palika-type-cs-sub-metropolitan"> </a>
+                  <code>http://fhir.mohp.gov.np/CodeSystem/nepal-palika-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-nepal-palika-type-cs.html#nepal-palika-type-cs-sub-metropolitan">sub-metropolitan</a>
+                </td>
+                <td>Sub-Metropolitan City (Upamahanagarpalika)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.mohp.gov.np/CodeSystem/nepal-palika-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;sub-metropolitan&quot;, &quot;display&quot;: &quot;Sub-Metropolitan City (Upamahanagarpalika)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.mohp.gov.np/CodeSystem/nepal-palika-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;sub-metropolitan&quot;&gt;&lt;display value=&quot;Sub-Metropolitan City (Upamahanagarpalika)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.mohp.gov.np/CodeSystem/nepal-palika-type-cs-municipality"> </a>
+                  <code>http://fhir.mohp.gov.np/CodeSystem/nepal-palika-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-nepal-palika-type-cs.html#nepal-palika-type-cs-municipality">municipality</a>
+                </td>
+                <td>Municipality (Nagarpalika)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.mohp.gov.np/CodeSystem/nepal-palika-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;municipality&quot;, &quot;display&quot;: &quot;Municipality (Nagarpalika)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.mohp.gov.np/CodeSystem/nepal-palika-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;municipality&quot;&gt;&lt;display value=&quot;Municipality (Nagarpalika)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.mohp.gov.np/CodeSystem/nepal-palika-type-cs-rural-municipality"> </a>
+                  <code>http://fhir.mohp.gov.np/CodeSystem/nepal-palika-type-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-nepal-palika-type-cs.html#nepal-palika-type-cs-rural-municipality">rural-municipality</a>
+                </td>
+                <td>Rural Municipality (Gaupalika)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.mohp.gov.np/CodeSystem/nepal-palika-type-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;rural-municipality&quot;, &quot;display&quot;: &quot;Rural Municipality (Gaupalika)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.mohp.gov.np/CodeSystem/nepal-palika-type-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;rural-municipality&quot;&gt;&lt;display value=&quot;Rural Municipality (Gaupalika)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.mohp.gov.np/ValueSet/nepal-palika-type-vs"/>
+        <version value="0.1.0"/>
+        <name value="NepalPalikaTypeVS"/>
+        <title value="Nepal Local Level Tier Value Set"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2026-06-04T10:24:25+05:45"/>
+        <expansion>
+          <identifier value="urn:uuid:2d82a185-cb02-4057-a222-d57a30d17526"/>
+          <timestamp value="2026-06-04T10:25:24+05:45"/>
+          <total value="4"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.mohp.gov.np/CodeSystem/nepal-palika-type-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.mohp.gov.np/CodeSystem/nepal-palika-type-cs"/>
+            <code value="metropolitan"/>
+            <display value="Metropolitan City (Mahanagarpalika)"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.mohp.gov.np/CodeSystem/nepal-palika-type-cs"/>
+            <code value="sub-metropolitan"/>
+            <display value="Sub-Metropolitan City (Upamahanagarpalika)"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.mohp.gov.np/CodeSystem/nepal-palika-type-cs"/>
+            <code value="municipality"/>
+            <display value="Municipality (Nagarpalika)"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.mohp.gov.np/CodeSystem/nepal-palika-type-cs"/>
+            <code value="rural-municipality"/>
+            <display value="Rural Municipality (Gaupalika)"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.mohp.gov.np/ValueSet/nepal-provinces-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-nepal-provinces-cs.html">codesystem Nepal Provinces Code System v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 7 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs-p1"> </a>
+                  <code>http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-nepal-provinces-cs.html#nepal-provinces-cs-p1">p1</a>
+                </td>
+                <td>Koshi Province</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;p1&quot;, &quot;display&quot;: &quot;Koshi Province&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;p1&quot;&gt;&lt;display value=&quot;Koshi Province&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs-p2"> </a>
+                  <code>http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-nepal-provinces-cs.html#nepal-provinces-cs-p2">p2</a>
+                </td>
+                <td>Madhesh Province</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;p2&quot;, &quot;display&quot;: &quot;Madhesh Province&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;p2&quot;&gt;&lt;display value=&quot;Madhesh Province&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs-p3"> </a>
+                  <code>http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-nepal-provinces-cs.html#nepal-provinces-cs-p3">p3</a>
+                </td>
+                <td>Bagmati Province</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;p3&quot;, &quot;display&quot;: &quot;Bagmati Province&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;p3&quot;&gt;&lt;display value=&quot;Bagmati Province&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs-p4"> </a>
+                  <code>http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-nepal-provinces-cs.html#nepal-provinces-cs-p4">p4</a>
+                </td>
+                <td>Gandaki Province</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;p4&quot;, &quot;display&quot;: &quot;Gandaki Province&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;p4&quot;&gt;&lt;display value=&quot;Gandaki Province&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs-p5"> </a>
+                  <code>http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-nepal-provinces-cs.html#nepal-provinces-cs-p5">p5</a>
+                </td>
+                <td>Lumbini Province</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;p5&quot;, &quot;display&quot;: &quot;Lumbini Province&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;p5&quot;&gt;&lt;display value=&quot;Lumbini Province&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs-p6"> </a>
+                  <code>http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-nepal-provinces-cs.html#nepal-provinces-cs-p6">p6</a>
+                </td>
+                <td>Karnali Province</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;p6&quot;, &quot;display&quot;: &quot;Karnali Province&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;p6&quot;&gt;&lt;display value=&quot;Karnali Province&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs-p7"> </a>
+                  <code>http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-nepal-provinces-cs.html#nepal-provinces-cs-p7">p7</a>
+                </td>
+                <td>Sudurpashchim Province</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;p7&quot;, &quot;display&quot;: &quot;Sudurpashchim Province&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;p7&quot;&gt;&lt;display value=&quot;Sudurpashchim Province&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.mohp.gov.np/ValueSet/nepal-provinces-vs"/>
+        <version value="0.1.0"/>
+        <name value="NepalProvincesVS"/>
+        <title value="Nepal Provinces Value Set"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2026-06-04T10:24:25+05:45"/>
+        <expansion>
+          <identifier value="urn:uuid:3c838e2f-f8f7-4771-aafc-0e636195988c"/>
+          <timestamp value="2026-06-04T10:25:24+05:45"/>
+          <total value="7"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs"/>
+            <code value="p1"/>
+            <display value="Koshi Province"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs"/>
+            <code value="p2"/>
+            <display value="Madhesh Province"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs"/>
+            <code value="p3"/>
+            <display value="Bagmati Province"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs"/>
+            <code value="p4"/>
+            <display value="Gandaki Province"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs"/>
+            <code value="p5"/>
+            <display value="Lumbini Province"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs"/>
+            <code value="p6"/>
+            <display value="Karnali Province"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.mohp.gov.np/CodeSystem/nepal-provinces-cs"/>
+            <code value="p7"/>
+            <display value="Sudurpashchim Province"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

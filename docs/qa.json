@@ -1,0 +1,19 @@
+{
+  "url" : "http://fhir.mohp.gov.np/ImplementationGuide/fhir.np.base",
+  "name" : "NepalBaseline",
+  "title" : "Nepal Baseline",
+  "description" : "",
+  "status" : "draft",
+  "package-id" : "fhir.np.base",
+  "ig-ver" : "0.1.0",
+  "date" : "Thu, 04 Jun, 2026 10:24:25 +0545",
+  "dateISO8601" : "2026-06-04T10:24:25+05:45",
+  "errs" : 0,
+  "warnings" : 6,
+  "hints" : 3,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 975699968
+}

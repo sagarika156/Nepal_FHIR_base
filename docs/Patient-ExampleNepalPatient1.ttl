@@ -1,0 +1,90 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.mohp.gov.np/Patient/ExampleNepalPatient1> a fhir:Patient ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ExampleNepalPatient1"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://fhir.mohp.gov.np/StructureDefinition/nepal-patient"^^xsd:anyURI ;
+       fhir:l <http://fhir.mohp.gov.np/StructureDefinition/nepal-patient>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient ExampleNepalPatient1</b></p><a name=\"ExampleNepalPatient1\"> </a><a name=\"hcExampleNepalPatient1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nepal-patient.html\">Nepal Baseline Patient Profile</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Hari Prasad Shrestha(official) Male, DoB: 1988-08-15 ( National Health Plan Identifier)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Other Id (see the one above)\">Other Id:</td><td colspan=\"3\">Citizenship Card/27-01-75-04321</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\">Ward 4 Imadol Mahalaxmi p3 (home)</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"An extension to capture caste or ethnic classifications according to MoHP Nepal digital health guidelines.\"><a href=\"StructureDefinition-nepal-caste-ethnicity.html\">Nepal Patient Caste and Ethnicity Extension</a></td><td colspan=\"3\"><span title=\"Codes:{http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs 2}\">Janajati</span></td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://fhir.mohp.gov.np/StructureDefinition/nepal-caste-ethnicity"^^xsd:anyURI ;
+       fhir:l <http://fhir.mohp.gov.np/StructureDefinition/nepal-caste-ethnicity>
+     ] ;
+     fhir:value [
+       a fhir:CodeableConcept ;
+       fhir:coding ( [
+         fhir:system [
+           fhir:v "http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs"^^xsd:anyURI ;
+           fhir:l <http://fhir.mohp.gov.np/CodeSystem/nepal-caste-ethnicity-cs>
+         ] ;
+         fhir:code [ fhir:v "2" ] ;
+         fhir:display [ fhir:v "Janajati" ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:identifier ( [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
+         ] ;
+         fhir:code [ fhir:v "NH" ]
+       ] )
+     ] ;
+     fhir:value [ fhir:v "NHID-9982-3145" ]
+  ] [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
+         ] ;
+         fhir:code [ fhir:v "CZ" ]
+       ] )
+     ] ;
+     fhir:value [ fhir:v "27-01-75-04321" ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:text [ fhir:v "Hari Prasad Shrestha" ] ;
+     fhir:family [ fhir:v "Shrestha" ] ;
+     fhir:given ( [ fhir:v "Hari" ] [ fhir:v "Prasad" ] )
+  ] ) ; # 
+  fhir:gender [ fhir:v "male"] ; # 
+  fhir:birthDate [ fhir:v "1988-08-15"^^xsd:date] ; # 
+  fhir:address ( [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "http://fhir.mohp.gov.np/StructureDefinition/nepal-palika-type"^^xsd:anyURI ;
+         fhir:l <http://fhir.mohp.gov.np/StructureDefinition/nepal-palika-type>
+       ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "municipality"
+       ]
+     ] ) ;
+     fhir:use [ fhir:v "home" ] ;
+     fhir:type [ fhir:v "both" ] ;
+     fhir:line ( [ fhir:v "Ward 4" ] [ fhir:v "Imadol" ] ) ;
+     fhir:city [ fhir:v "Mahalaxmi" ] ;
+     fhir:district [ fhir:v "dist-302" ] ;
+     fhir:state [ fhir:v "p3" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
